@@ -1,0 +1,165 @@
+\documentclass[a4paper,12pt]{article}
+\author{Edward}
+\title{Proyecto de Programación I.Facultad de Matemática y Computación - Universidad de La Habana.Cursos 2021, 2022}
+
+\begin{document}
+\maketitle
+Moogle! es una aplicaci\'on web cuyo prop\'osito es buscar inteligentemente un
+texto en un conjunto de documentos.Est\'a desarrollada con tecnolog\'ia .NET Core 6.0,
+específicamente usando Blazor como "framework" web para la interfaz gr\'afica, y en el lenguaje C Sharp.\\
+ La aplicación está dividida en dos componentes fundamentales:
+
+- "MoogleServer" es un servidor web que renderiza la interfaz gr\'afica y sirve los resultados.\\
+- "MoogleEngine" es una biblioteca de clases donde está implementada toda la l\'ogica del programa
+
+La b\'usqueda se realiza lo m\'as inteligente posible, por ese motivo no nos limitamos a 
+los documentos donde aparece exactamente la frase introducida por el usuario, sino que tambi\'en se realiza una b\'usqueda por parecido entre las palabras.\\
+ 
+
+El proyecto por defecto tiene tres clases; una clase Moogle donde voy a implementar lo necesario para
+que el programa busque y dos clases que me ayudan a organizar esos resultados de la búsqueda .La
+primera es searchitem para caracterizar a un resultado de la búsqueda la misma tiene tres
+propiedades ,el title snippet score esta última es que tanto se parece a lo que estoy buscando y es lo que 
+utilizo para ordenar los resultados en relación a la concordancia que tienen o la similitud que tienen con
+la query , el snippet es un fragmento que voy a devolver junto con ese resultado mostrando que ese
+resultado que devuelve tiene realmente que ver con mi query, el title es el título del libro que estoy
+devolviendo.
+Para este proyecto implemente las siguentes clases comenzando por la clase Book  para guardar todo lo
+referente a la información necesaria para la búsqueda de un libro o sea todo lo que se necesita sacar de
+un libro, clase Library será mi biblioteca para guardar la información de varios libros para tener más
+información creando así un conjunto de documentos más organizados, clase toolsBox que contiene
+métodos útiles que se usarán más adelante para poder realizar la búsqueda estos códigos son
+generalmente recurrente para usarlos varias veces llamándolos desde cualquier otro lugar desde
+cualquier clase, SearchEngine este sería el motor de busqueda para construir la biblioteca para poder
+tener toda la información almacenada aquí se realizan todos los procesos para poder realizar la
+búsqueda es donde también esta implementado el modelo vectorial utilizado para poder dar los
+resultados de acuerdo a la búsqueda y en el método search se construyen los resultados de búsqueda,
+método que llama a todos los demás métodos ya sea de las demás clases y de la propia clase en sí para
+poder construir el resultado que queremos mandar, devolviendo un serchresult que en la clase Moogle
+simplemente tenemos que generar una instancia de la clase SearchEngine iniciarla y preguntarle a esa
+instancia por los resultados de la búsqueda, a través del método Search.\\
+
+El modelo vectorial se basa en lo siguiente:\\
+Toma la consulta, que consiste en un conjunto de palabras y la convierte en el vector $\vec{q} = ( w_1 , w_2 , \dots , w_n )$ donde cada componente se refiere al peso de una palabra de la consulta
+Luego, usando la mismas palabras de la consulta se construyen los vectores $\vec{d_j} = ( w_{1j} , w_{2j} , \dots , w_{nj})$ con $j = 1;2; \dots ; D$ siendo $D$ la cantidad de documentos sobre los que se har\'a la b\'usqueda.\\
+Los valores de las componentes de cada vector se calculan seg\'un las f\'ormulas siguientes:\\
+\begin{eqnarray}
+    w_i = (a + (1- a)*\frac{TF_i}{max TF})*\log_{10}(\frac{D}{D_i})\\
+    w_{ji} = \frac{TF_{ij}}{max TF_j} * \log_{10}(\frac{D}{D_i})
+\end{eqnarray}
+Donde $TF_i$ es la cantidad de veces que se repite la palabra $i$ en la consulta, $maxTF$ es la cantidad de veces que se repite la palabra que m\'as se repite en la consulta, $a$ es 
+un valor de amoriguamiento que se en cuentra en el intervalo $(0;1)$; se suele escoger un valor entre $0.5$; y $D_i$ es la cantidad de documentos que contienen a la palabra $i$. $TF_{ij}$
+es la cantidad de veces que se repite la palabra $i$ en el documento $j$ y $maxTF_j$ es la cantidad de veces que se repite la palabra que m\'as se repite en el documento $j$. Cada uno de 
+estos valores pueden ser obtenidos de la clase Library ya que son datos que se computan directamente de los documentos, y estos datos se computan a la hora de cargar todos los documentos
+para la aplicaci\'on.\\
+\\
+De la asignatura de \'Algebra conocemos que:
+\begin{eqnarray}
+    \vec{q}*\vec{d_j} = \sum_{i = 1}^{n} w_i*w_{ji}\\
+    \vec{q}*\vec{d_j} = |\vec{q}|*|\vec{d_j}|*\cos\angle(\vec{q},\vec{d_j})\\
+    |\vec{q}| = \sqrt{\sum_{i = 1}^n w_i^2}\\
+    |\vec{d_j}| = \sqrt{\sum_{i = 1}^n w_{ji}^2}
+\end{eqnarray}
+Sustituyendo $(3),(5),(6)$ en $(4)$ se obtiene:
+\begin{eqnarray}
+    \sum_{i = 1}^n w_i*w_{ji} = \cos\angle(\vec{q},\vec{d_j}) *\sqrt{(\sum_{i = 1}^n w_i^2 )* (\sum_{i = 1}^n w_{ji}^2)} 
+\end{eqnarray}
+y despejando $\cos\angle(\vec{q},\vec{d_j})$ en $(7)$ obtenemos:
+\begin{eqnarray}
+    \cos \angle(\vec{q},\vec{d_j}) = \frac{\sum_{i = 1}^n w_i*w_{ji}}{\sqrt{(\sum_{i = 1}^n w_i^2 )* (\sum_{i = 1}^n w_{ji}^2)}}
+\end{eqnarray}
+Donde $\cos \angle(\vec{q},\vec{d_j})$ es la similitud entre la consulta $\vec{q}$ y el documento $\vec{d_j}$
+
+Para una mayor eficiencia de la aplicaci\'on, cada dato es almacenado en una matriz de la siguiente forma; una matriz con el tf de cada palabra de la consulta por cada documento,
+
+\begin{center}
+    \left( \begin{tabular}{cols}
+        $\frac{TF_{11}}{maxTF_1}$ & $\frac{TF_{12}}{maxTF_1}$ & \dots & $\frac{TF_{1n}}{maxTF_1}$\\
+        $\frac{TF_{21}}{maxTF_2}$ & $\frac{TF_{22}}{maxTF_2}$ & \dots & $\frac{TF_{2n}}{maxTF_2}$\\
+        \dots & \dots & \dots & \dots\\
+        $\frac{TF_{m1}}{maxTF_m}$ & $\frac{TF_{m2}}{maxTF_m}$ & \dots & $\frac{TF_{nm}}{maxTF_m}$\\
+    \end{tabular}\right)
+\end{center}
+\\
+\\
+y un vector con el idf de cada palabra de la consulta en el conjunto de documentos $\vec{p} = (p_1 , p_2 , \dots , p_n)$ donde se cumple que $p_i = \log_{10}(\frac{D}{D_i}$); 
+de esta forma, aplicar los operadores se reduce a alterar los valores de las componentes del vector $\vec{p}$ o las componentes de la matriz presentada.\\
+Luego, cada componente del vector $\vec{p}$ se multiplica por la columna correspondiente, obteniendo as\'i la matriz\\
+$W$ = 
+\begin{left}
+    \left( \begin{tabular}{cols}
+        $w_{11}$ & $w_{12}$ & \dots & $w_{1n}$\\
+        $w_{21}$ & $w_{22}$ & \dots & $w_{2n}$\\
+        \dots & \dots & \dots & \dots\\
+        $w_{m1}$ & $w_{m2}$ & \dots & $w_{mn}$\\
+    \end{tabular}\right)
+\end{left}
+\\
+\\
+Luego, haciendo\\
+\\
+ $\vec{q}$ =
+\begin{left}
+    \left( \begin{tabular}{cols}
+        $w_1$\\
+        $w_2$\\
+        \dots\\
+        $w_{n}$\\
+    \end{tabular}\right)
+\end{left} 
+\\
+\\
+si efectuamos el producto $W*\vec{q}$ =
+\begin{left}
+    \left( \begin{tabular}{cols}
+        $w_{11}$ & $w_{12}$ & \dots & $w_{1n}$\\
+        $w_{21}$ & $w_{22}$ & \dots & $w_{2n}$\\
+        \dots & \dots & \dots & \dots\\
+        $w_{m1}$ & $w_{m2}$ & \dots & $w_{mn}$\\
+    \end{tabular}\right)
+\end{left} * 
+\begin{left}
+    \left( \begin{tabular}{cols}
+        $w_1$\\
+        $w_2$\\
+        \dots\\
+        $w_{n}$\\
+    \end{tabular}\right)
+\end{left} 
+\\
+\\se obtiene \theta  =
+\begin{left}
+    \left( \begin{tabular}{cols}
+        $\sum_{i = 1}^n w_i * w_{1i}$\\
+        $\sum_{i = 1}^n w_i * w_{2i}$\\
+        \dots\\
+        $\sum_{i = 1}^n w_i * w_{mi}$\\
+    \end{tabular}\right)
+\end{left}
+= 
+\begin{left}
+    \left( \begin{tabular}{cols}
+        \theta_1\\
+        \theta_2\\
+        \dots\\
+        \theta_m\\
+    \end{tabular}\right)
+\end{left}
+\\
+\\Sea \\
+$p_j = \sqrt{(\sum_{i = 1}^n w_i^2 )* (\sum_{i = 1}^n w_{ji}^2)}$
+\\
+\\
+si hacemos \theta^{'} = 
+\begin{left}
+    \left( \begin{tabular}{cols}
+        $\frac{\theta_1}{p_1}$\\
+        $\frac{\theta_2}{p_2}$\\
+        \dots\\
+        $\frac{\theta_m}{p_m}$\\
+    \end{tabular}\right)
+\end{left}
+\\
+\\
+entonces $ \theta^{'}$ ser\'a el vector con las similitudes de cada documento con la consulta despu\'es de haber aplicado los operadores de b\'usqueda a toda la consulta.
+\end{document}

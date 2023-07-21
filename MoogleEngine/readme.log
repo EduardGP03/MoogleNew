@@ -1,0 +1,756 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.7.20)  21 JUL 2023 06:47
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/home/eduard/moogle/MoogleEngine/readme.tex
+(/home/eduard/moogle/MoogleEngine/readme.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count193
+\l__pdf_internal_box=\box50
+) (./readme.aux)
+\openout1 = `readme.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 6.
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--17
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--41
+
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 43.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 43.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 43.
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--46
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--57
+
+ []
+
+[2]
+/home/eduard/moogle/MoogleEngine/readme.tex:76: Missing $ inserted.
+<inserted text> 
+                $
+l.76     \left
+              ( \begin{tabular}{cols}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+/home/eduard/moogle/MoogleEngine/readme.tex:76: LaTeX Error: Illegal character in array arg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.76     \left( \begin{tabular}{cols}
+                                     
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/home/eduard/moogle/MoogleEngine/readme.tex:76: LaTeX Error: Illegal character in array arg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.76     \left( \begin{tabular}{cols}
+                                     
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/home/eduard/moogle/MoogleEngine/readme.tex:82: LaTeX Error: Command \end{center} invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 \end{center}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/home/eduard/moogle/MoogleEngine/readme.tex:82: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 \end{center}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/home/eduard/moogle/MoogleEngine/readme.tex:82: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 \end{center}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/home/eduard/moogle/MoogleEngine/readme.tex:82: Missing $ inserted.
+<inserted text> 
+                $
+l.82 \end{center}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/home/eduard/moogle/MoogleEngine/readme.tex:89: Missing $ inserted.
+<inserted text> 
+                $
+l.89 \begin{left}
+                 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/home/eduard/moogle/MoogleEngine/readme.tex:90: Missing delimiter (. inserted).
+<to be read again> 
+                   \left 
+l.90     \left
+              ( \begin{tabular}{cols}
+I was expecting to see something like `(' or `\{' or
+`\}' here. If you typed, e.g., `{' instead of `\{', you
+should probably delete the `{' by typing `1' now, so that
+braces don't get unbalanced. Otherwise just proceed.
+Acceptable delimiters are characters whose \delcode is
+nonnegative, or you can use `\delimiter <delimiter code>'.
+
+
+/home/eduard/moogle/MoogleEngine/readme.tex:90: LaTeX Error: Illegal character in array arg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.90     \left( \begin{tabular}{cols}
+                                     
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/home/eduard/moogle/MoogleEngine/readme.tex:90: LaTeX Error: Illegal character in array arg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.90     \left( \begin{tabular}{cols}
+                                     
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/home/eduard/moogle/MoogleEngine/readme.tex:96: Missing \right. inserted.
+<inserted text> 
+                \right .
+l.96 \end{left}
+               
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/home/eduard/moogle/MoogleEngine/readme.tex:96: Missing $ inserted.
+<inserted text> 
+                $
+l.96 \end{left}
+               
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/home/eduard/moogle/MoogleEngine/readme.tex:102: Missing $ inserted.
+<inserted text> 
+                $
+l.102 \begin{left}
+                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/home/eduard/moogle/MoogleEngine/readme.tex:103: Missing delimiter (. inserted).
+<to be read again> 
+                   \left 
+l.103     \left
+               ( \begin{tabular}{cols}
+I was expecting to see something like `(' or `\{' or
+`\}' here. If you typed, e.g., `{' instead of `\{', you
+should probably delete the `{' by typing `1' now, so that
+braces don't get unbalanced. Otherwise just proceed.
+Acceptable delimiters are characters whose \delcode is
+nonnegative, or you can use `\delimiter <delimiter code>'.
+
+
+/home/eduard/moogle/MoogleEngine/readme.tex:103: LaTeX Error: Illegal character in array arg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.103     \left( \begin{tabular}{cols}
+                                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/home/eduard/moogle/MoogleEngine/readme.tex:103: LaTeX Error: Illegal character in array arg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.103     \left( \begin{tabular}{cols}
+                                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/home/eduard/moogle/MoogleEngine/readme.tex:109: Missing \right. inserted.
+<inserted text> 
+                \right .
+l.109 \end{left}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/home/eduard/moogle/MoogleEngine/readme.tex:109: Missing $ inserted.
+<inserted text> 
+                $
+l.109 \end{left}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/home/eduard/moogle/MoogleEngine/readme.tex:113: Missing $ inserted.
+<inserted text> 
+                $
+l.113 \begin{left}
+                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/home/eduard/moogle/MoogleEngine/readme.tex:114: Missing delimiter (. inserted).
+<to be read again> 
+                   \left 
+l.114     \left
+               ( \begin{tabular}{cols}
+I was expecting to see something like `(' or `\{' or
+`\}' here. If you typed, e.g., `{' instead of `\{', you
+should probably delete the `{' by typing `1' now, so that
+braces don't get unbalanced. Otherwise just proceed.
+Acceptable delimiters are characters whose \delcode is
+nonnegative, or you can use `\delimiter <delimiter code>'.
+
+
+/home/eduard/moogle/MoogleEngine/readme.tex:114: LaTeX Error: Illegal character in array arg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.114     \left( \begin{tabular}{cols}
+                                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/home/eduard/moogle/MoogleEngine/readme.tex:114: LaTeX Error: Illegal character in array arg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.114     \left( \begin{tabular}{cols}
+                                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/home/eduard/moogle/MoogleEngine/readme.tex:120: Missing \right. inserted.
+<inserted text> 
+                \right .
+l.120 \end{left}
+                 *
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/home/eduard/moogle/MoogleEngine/readme.tex:120: Missing $ inserted.
+<inserted text> 
+                $
+l.120 \end{left}
+                 *
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/home/eduard/moogle/MoogleEngine/readme.tex:121: Missing $ inserted.
+<inserted text> 
+                $
+l.121 \begin{left}
+                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/home/eduard/moogle/MoogleEngine/readme.tex:122: Missing delimiter (. inserted).
+<to be read again> 
+                   \left 
+l.122     \left
+               ( \begin{tabular}{cols}
+I was expecting to see something like `(' or `\{' or
+`\}' here. If you typed, e.g., `{' instead of `\{', you
+should probably delete the `{' by typing `1' now, so that
+braces don't get unbalanced. Otherwise just proceed.
+Acceptable delimiters are characters whose \delcode is
+nonnegative, or you can use `\delimiter <delimiter code>'.
+
+
+/home/eduard/moogle/MoogleEngine/readme.tex:122: LaTeX Error: Illegal character in array arg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.122     \left( \begin{tabular}{cols}
+                                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/home/eduard/moogle/MoogleEngine/readme.tex:122: LaTeX Error: Illegal character in array arg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.122     \left( \begin{tabular}{cols}
+                                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/home/eduard/moogle/MoogleEngine/readme.tex:128: Missing \right. inserted.
+<inserted text> 
+                \right .
+l.128 \end{left}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/home/eduard/moogle/MoogleEngine/readme.tex:128: Missing $ inserted.
+<inserted text> 
+                $
+l.128 \end{left}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/home/eduard/moogle/MoogleEngine/readme.tex:130: Missing $ inserted.
+<inserted text> 
+                $
+l.130 \\se obtiene \theta
+                           =
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/home/eduard/moogle/MoogleEngine/readme.tex:132: Missing delimiter (. inserted).
+<to be read again> 
+                   \left 
+l.132     \left
+               ( \begin{tabular}{cols}
+I was expecting to see something like `(' or `\{' or
+`\}' here. If you typed, e.g., `{' instead of `\{', you
+should probably delete the `{' by typing `1' now, so that
+braces don't get unbalanced. Otherwise just proceed.
+Acceptable delimiters are characters whose \delcode is
+nonnegative, or you can use `\delimiter <delimiter code>'.
+
+
+/home/eduard/moogle/MoogleEngine/readme.tex:132: LaTeX Error: Illegal character in array arg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.132     \left( \begin{tabular}{cols}
+                                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/home/eduard/moogle/MoogleEngine/readme.tex:132: LaTeX Error: Illegal character in array arg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.132     \left( \begin{tabular}{cols}
+                                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/home/eduard/moogle/MoogleEngine/readme.tex:138: Missing \right. inserted.
+<inserted text> 
+                \right .
+l.138 \end{left}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/home/eduard/moogle/MoogleEngine/readme.tex:141: Missing delimiter (. inserted).
+<to be read again> 
+                   \left 
+l.141     \left
+               ( \begin{tabular}{cols}
+I was expecting to see something like `(' or `\{' or
+`\}' here. If you typed, e.g., `{' instead of `\{', you
+should probably delete the `{' by typing `1' now, so that
+braces don't get unbalanced. Otherwise just proceed.
+Acceptable delimiters are characters whose \delcode is
+nonnegative, or you can use `\delimiter <delimiter code>'.
+
+
+/home/eduard/moogle/MoogleEngine/readme.tex:141: LaTeX Error: Illegal character in array arg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.141     \left( \begin{tabular}{cols}
+                                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/home/eduard/moogle/MoogleEngine/readme.tex:141: LaTeX Error: Illegal character in array arg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.141     \left( \begin{tabular}{cols}
+                                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/home/eduard/moogle/MoogleEngine/readme.tex:142: Missing $ inserted.
+<inserted text> 
+                $
+l.142         \theta
+                    _1\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/home/eduard/moogle/MoogleEngine/readme.tex:143: Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.143         \theta
+                    _2\\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+/home/eduard/moogle/MoogleEngine/readme.tex:143: Missing $ inserted.
+<inserted text> 
+                $
+l.143         \theta
+                    _2\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/home/eduard/moogle/MoogleEngine/readme.tex:143: Missing } inserted.
+<inserted text> 
+                }
+l.143         \theta
+                    _2\\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/home/eduard/moogle/MoogleEngine/readme.tex:143: Missing $ inserted.
+<inserted text> 
+                $
+l.143         \theta
+                    _2\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/home/eduard/moogle/MoogleEngine/readme.tex:144: Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.144         \dots
+                   \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+/home/eduard/moogle/MoogleEngine/readme.tex:144: Missing $ inserted.
+<inserted text> 
+                $
+l.144         \dots
+                   \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/home/eduard/moogle/MoogleEngine/readme.tex:144: Missing } inserted.
+<inserted text> 
+                }
+l.144         \dots
+                   \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/home/eduard/moogle/MoogleEngine/readme.tex:145: Missing $ inserted.
+<inserted text> 
+                $
+l.145         \theta
+                    _m\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/home/eduard/moogle/MoogleEngine/readme.tex:146: Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.146     \end
+              {tabular}\right)
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+/home/eduard/moogle/MoogleEngine/readme.tex:146: Missing $ inserted.
+<inserted text> 
+                $
+l.146     \end
+              {tabular}\right)
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/home/eduard/moogle/MoogleEngine/readme.tex:146: Missing } inserted.
+<inserted text> 
+                }
+l.146     \end
+              {tabular}\right)
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/home/eduard/moogle/MoogleEngine/readme.tex:147: Missing \right. inserted.
+<inserted text> 
+                \right .
+l.147 \end{left}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/home/eduard/moogle/MoogleEngine/readme.tex:150: Missing $ inserted.
+<inserted text> 
+                $
+l.150 $p_
+         j = \sqrt{(\sum_{i = 1}^n w_i^2 )* (\sum_{i = 1}^n w_{ji}^2)}$
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/home/eduard/moogle/MoogleEngine/readme.tex:153: Missing $ inserted.
+<inserted text> 
+                $
+l.153 si hacemos \theta
+                       ^{'} =
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/home/eduard/moogle/MoogleEngine/readme.tex:155: Missing delimiter (. inserted).
+<to be read again> 
+                   \left 
+l.155     \left
+               ( \begin{tabular}{cols}
+I was expecting to see something like `(' or `\{' or
+`\}' here. If you typed, e.g., `{' instead of `\{', you
+should probably delete the `{' by typing `1' now, so that
+braces don't get unbalanced. Otherwise just proceed.
+Acceptable delimiters are characters whose \delcode is
+nonnegative, or you can use `\delimiter <delimiter code>'.
+
+
+/home/eduard/moogle/MoogleEngine/readme.tex:155: LaTeX Error: Illegal character in array arg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.155     \left( \begin{tabular}{cols}
+                                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/home/eduard/moogle/MoogleEngine/readme.tex:155: LaTeX Error: Illegal character in array arg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.155     \left( \begin{tabular}{cols}
+                                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/home/eduard/moogle/MoogleEngine/readme.tex:161: Missing \right. inserted.
+<inserted text> 
+                \right .
+l.161 \end{left}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/home/eduard/moogle/MoogleEngine/readme.tex:164: Missing $ inserted.
+<inserted text> 
+                $
+l.164 entonces $ \theta
+                       ^{'}$ ser\'a el vector con las similitudes de cada do...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--165
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--165
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--165
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--165
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--165
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--165
+
+ []
+
+[3] [4] (./readme.aux) ) 
+Here is how much of TeX's memory you used:
+ 434 strings out of 478287
+ 7870 string characters out of 5849289
+ 319731 words of memory out of 5000000
+ 18703 multiletter control sequences out of 15000+600000
+ 473207 words of font info for 41 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 33i,12n,38p,282b,191s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on readme.pdf (4 pages, 126423 bytes).
+PDF statistics:
+ 72 PDF objects out of 1000 (max. 8388607)
+ 43 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

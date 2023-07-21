@@ -1,0 +1,12 @@
+/home/eduard/moogle/MoogleEngine/bin/Debug/net7.0/MoogleEngine.deps.json
+/home/eduard/moogle/MoogleEngine/bin/Debug/net7.0/MoogleEngine.dll
+/home/eduard/moogle/MoogleEngine/bin/Debug/net7.0/MoogleEngine.pdb
+/home/eduard/moogle/MoogleEngine/obj/Debug/net7.0/MoogleEngine.csproj.AssemblyReference.cache
+/home/eduard/moogle/MoogleEngine/obj/Debug/net7.0/MoogleEngine.GeneratedMSBuildEditorConfig.editorconfig
+/home/eduard/moogle/MoogleEngine/obj/Debug/net7.0/MoogleEngine.AssemblyInfoInputs.cache
+/home/eduard/moogle/MoogleEngine/obj/Debug/net7.0/MoogleEngine.AssemblyInfo.cs
+/home/eduard/moogle/MoogleEngine/obj/Debug/net7.0/MoogleEngine.csproj.CoreCompileInputs.cache
+/home/eduard/moogle/MoogleEngine/obj/Debug/net7.0/MoogleEngine.dll
+/home/eduard/moogle/MoogleEngine/obj/Debug/net7.0/refint/MoogleEngine.dll
+/home/eduard/moogle/MoogleEngine/obj/Debug/net7.0/MoogleEngine.pdb
+/home/eduard/moogle/MoogleEngine/obj/Debug/net7.0/ref/MoogleEngine.dll
